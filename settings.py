@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+@Author:peter.zeng
+@Email:peter.zeng@anker.com
+@Date: 2023/10/25 22:55
+"""
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
